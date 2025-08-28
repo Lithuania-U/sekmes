@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard Skills Radialinė</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <div id="app" class="min-h-screen flex flex-col items-center p-4 md:p-8">
+        <div class="w-full max-w-6xl mb-6 flex flex-col sm:flex-row gap-4">
+            <input type="text" id="searchInput" placeholder="Ieškoti įgūdžių (pvz., Matematika, AI, Biologija...)" 
+                   class="flex-grow p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+            <div class="flex gap-2">
+                <button id="showCategoriesBtn" class="px-4 py-2 bg-gray-500 text-white font-semibold rounded-lg shadow-md hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 transition-colors">
+                    36 Sėkmės
+                </button>
+                <button id="showSkillsBtn" class="px-4 py-2 bg-purple-500 text-white font-semibold rounded-lg shadow-md hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-opacity-75 transition-colors">
+                    Mano įgūdžiai
+                </button>
+            </div>
+        </div>
+
+        <div id="chart-container" class="w-full max-w-full flex flex-col md:flex-row items-center md:items-start justify-center gap-4">
+            <div id="chart" class="flex-shrink-0 w-full md:w-1/2 lg:w-2/3 flex items-center justify-center relative">
+                <!-- Tooltip for hover/touch -->
+                <div id="tooltip" class="absolute bg-gray-800 text-white text-xs px-2 py-1 rounded shadow-lg opacity-0 pointer-events-none transition-opacity duration-200"></div>
+            </div>
+            <div id="info-panel" class="w-full md:w-1/2 lg:w-1/3 p-6 bg-white border border-gray-200 rounded-xl shadow-lg transition-all duration-300 ease-in-out">
+                <div id="categoriesView">
+                    <!-- Kategorijos bus čia -->
+                </div>
+                <div id="skillsView" class="hidden">
+                    <h2 class="text-xl font-bold mb-4 text-gray-900">Įvertinkite savo įgūdžius (0-10)</h2>
+                    <div id="skillsRadioButtons" class="space-y-4">
+                        <!-- Įgūdžių radio mygtukai bus generuojami čia -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

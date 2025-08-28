@@ -1,0 +1,1175 @@
+[
+  {
+    "title": "Matematika, Kvantinė Fizika",
+    "angle": 0,
+    "level": 10,
+    "category": "Matematinis, loginis protas",
+    "tips": [
+      "Spręsk konkursines užduotis",
+      "Dalyvauk olimpiadose",
+      "Studijuok pažangius vadovėlius",
+      "Mokyk kitus — dėstymas gilina suvokimą",
+      "Programuok matematikos modelius"
+    ],
+    "professions": [
+      "Matematikos mokytojas",
+      "Statistikas",
+      "Aktuaristas",
+      "Finansų analitikas",
+      "Finansų modeliuotojas",
+      "Duomenų mokslininkas",
+      "Ekonometrijos specialistas",
+      "Algoritmuotojas",
+      "Tyrimų metodologas",
+      "Kvantinių technologijų inžinierius",
+      "Kvantinių kompiuterių programuotojas",
+      "Mokslininkas"
+    ],
+    "kids": [
+      "Spręskite logikos uždavinius ir galvosūkius",
+      "Žaiskite šachus ir kitus strateginius žaidimus",
+      "Naudokite skaičius kasdieniame gyvenime (pirkiniuose, gamyboje)",
+      "Eksperimentuokite su geometrijos formomis ir konstrukcijomis",
+      "Mokykitės programavimo pagrindų su vizualiais įrankiais",
+      "Dalyvaukite matematikos olimpiadose ir konkursuose",
+      "Spręskite praktines problemas realiame gyvenime"
+    ]
+  },
+  {
+    "title": "Dirbtinis intelektas, Mašinų mokymas",
+    "angle": 10,
+    "level": 10,
+    "category": "Matematinis, loginis protas",
+    "tips": [
+      "Mokykis programavimo bibliotekas (TensorFlow, PyTorch)",
+      "Spręsk Kaggle užduotis",
+      "Dalyvauk AI hackathonuose",
+      "Kurti savo projektus",
+      "Sek AI mokslines publikacijas"
+    ],
+    "professions": [
+      "Duomenų analitikas",
+      "Mašinų mokymosi inžinierius",
+      "AI produktų vadybininkas",
+      "NLP specialistas",
+      "Kompiuterinio matymo inžinierius",
+      "Automatizavimo specialistas",
+      "AI inžinierius",
+      "AI konsultantas",
+      "Robotikos inžinierius",
+      "Algoritmuotojas",
+      "Neurinio tinklo architektūros",
+      "AutoML inžinierius"
+    ],
+    "kids": [
+      "Supažindinkite su programavimo pagrindais (Scratch, Python)",
+      "Tyrinėkite robotikos rinkinius (LEGO Mindstorms, Arduino)",
+      "Mokykitės apie algoritmus per žaidimus",
+      "Eksperimentuokite su AI įrankiais vaikams",
+      "Dalyvaukite STEM konkursuose ir parodose",
+      "Kurkite mažus projektus su jutikliais ir motorais",
+      "Diskutuokite apie technologijų poveikį visuomenei"
+    ]
+  },
+  {
+    "title": "Fizika, Elektronika, Kompiuterija",
+    "angle": 20,
+    "level": 10,
+    "category": "Matematinis, loginis protas",
+    "tips": [
+      "Eksperimentuok su Arduino/Raspberry Pi",
+      "Spręsk fizikos uždavinius",
+      "Sek technologijų naujienas",
+      "Kurk mažus elektronikos projektus",
+      "Išbandyk kompiuterių architektūros kursus"
+    ],
+    "professions": [
+      "IT sistemų administratorius",
+      "Kompiuterių techninės priežiūros specialistas",
+      "Elektronikos inžinierius",
+      "Aparatūros dizaineris",
+      "Telekomunikacijos inžinierius",
+      "Fizikos mokytojas",
+      "Tinklo inžinierius",
+      "Kompiuterių architektas",
+      "IoT specialistas",
+      "Kvantinių sistemų inžinierius",
+      "Technikos konsultantas"
+    ],
+    "kids": [
+      "Atliekite fizikos eksperimentus namuose",
+      "Ardykite ir tyrinėkite senus elektronikos prietaisus",
+      "Kurkite elektros grandines su baterijomis ir LED",
+      "Eksperimentuokite su magnetais ir elektros laidais",
+      "Mokykitės kompiuterių veikimo principų",
+      "Dalyvaukite mokslo mugėse ir laboratorijose",
+      "Naudokite mikroskopus ir teleskopus tyrinėjimams"
+    ]
+  },
+  {
+    "title": "Inžinerija",
+    "angle": 30,
+    "level": 10,
+    "category": "Matematinis, loginis protas",
+    "tips": [
+      "Kurk prototipus",
+      "Dalyvauk inžineriniuose projektuose",
+      "Studijuok CAD įrankius",
+      "Eksperimentuok su konstrukcijomis",
+      "Dalyvauk studentų inžinerijos organizacijose"
+    ],
+    "professions": [
+      "Mechanikos inžinierius",
+      "Statybos inžinierius",
+      "Chemijos inžinierius",
+      "Aplinkos inžinierius",
+      "Oro ir kosmoso inžinierius",
+      "Automobilių dizaineris",
+      "Biomedicinos inžinierius",
+      "Sistemos inžinierius",
+      "Produkto dizaineris",
+      "Technikos vadovas",
+      "Pramonės inžinierius",
+      "R&D inžinierius"
+    ],
+    "kids": [
+      "Kurkite konstrukcijas iš LEGO, konstruktorių",
+      "Spręskite inžinerinius iššūkius ir uždavinius",
+      "Eksperimentuokite su tiltų ir bokštų statyba",
+      "Dalyvaukite robotikos ir inžinerijos konkursuose",
+      "Mokykitės naudoti paprastus įrankius",
+      "Projektuokite ir kurkite mažus išradimus",
+      "Stebėkite kaip veikia mašinos ir mechanizmai"
+    ]
+  },
+  {
+    "title": "Elektrotechnika",
+    "angle": 40,
+    "level": 9,
+    "category": "Organizacinis, valdžia",
+    "tips": [
+      "Studijuok elektros grandines",
+      "Praktikuok su matavimo prietaisais",
+      "Sek naujausias energetikos tendencijas",
+      "Eksperimentuok su saulės baterijomis",
+      "Kurk mažus elektros projektus"
+    ],
+    "professions": [
+      "Elektrikas",
+      "Pramonės elektrikas",
+      "Saulės energijos inžinierius",
+      "Elektros sistemos inžinierius",
+      "Automatikos inžinierius",
+      "Energetikos specialistas",
+      "Elektros tinklų projektantas",
+      "Smart grid inžinierius",
+      "Elektromobilių technikas"
+    ],
+    "kids": [
+      "Kurkite paprastas elektros grandines",
+      "Eksperimentuokite su saulės baterijomis",
+      "Mokykitės apie elektros saugumą",
+      "Tyrinėkite kaip veikia namų elektros prietaisai",
+      "Dalyvaukite elektronikos kursuose vaikams",
+      "Kurkite LED projektus ir šviesų instaliacijas",
+      "Mokykitės multimetro naudojimo"
+    ]
+  },
+  {
+    "title": "Mechanika",
+    "angle": 50,
+    "level": 9,
+    "category": "Organizacinis, valdžia",
+    "tips": [
+      "Ardyk ir surink variklius",
+      "Mokykis mechanikos teorijos",
+      "Eksperimentuok su konstrukcijų stiprumu",
+      "Dalyvauk automobilių remonto dirbtuvėse",
+      "Kurk 3D modelius"
+    ],
+    "professions": [
+      "Automechanikas",
+      "CNC operatorius",
+      "Gamybos inžinierius",
+      "Techninės priežiūros specialistas",
+      "Mechanikos mokytojas",
+      "Mašinų konstruktorius",
+      "Technologas",
+      "Ekspertas-tiražiuotojas",
+      "Mechatronikos inžinierius"
+    ],
+    "kids": [
+      "Ardykite ir tyrinėkite mechanizmus (laikrodžiai, žaislai)",
+      "Mokykitės naudoti paprastus įrankius",
+      "Kurkite mechanizmus iš konstruktorių",
+      "Eksperimentuokite su krumpliaračiais ir svertais",
+      "Dalyvaukite automobilių ir mechanikos parodose",
+      "Stebėkite kaip veikia dviračiai ir kt. mechanizmai",
+      "Mokykitės paprastų remonto įgūdžių"
+    ]
+  },
+  {
+    "title": "Architektūra, Modeliavimas",
+    "angle": 60,
+    "level": 9,
+    "category": "Organizacinis, valdžia",
+    "tips": [
+      "Studijuok architektūros istoriją",
+      "Kurk 3D modelius",
+      "Naudok AutoCAD/SketchUp",
+      "Dalyvauk architektūriniuose konkursuose",
+      "Sek tvarią architektūrą"
+    ],
+    "professions": [
+      "CAD dizaineris",
+      "3D modeliuotojas",
+      "Interjero dizaineris",
+      "Kraštovaizdžio architektas",
+      "Statybos projektantas",
+      "Animacijos menininkas",
+      "Industrinis dizaineris",
+      "Architektas",
+      "Urbanistas"
+    ],
+    "kids": [
+      "Kurkite namus ir miestus iš konstruktorių",
+      "Projektuokite ir braižykite pastatų planus",
+      "Naudokite 3D modeliavimo programas vaikams",
+      "Eksperimentuokite su skirtingomis konstrukcijų formomis",
+      "Lankykitės architektūros parodose ir muziejuose",
+      "Kurkite maketus iš kartono ir klijų",
+      "Mokykitės apie skirtingas architektūros stilius"
+    ]
+  },
+  {
+    "title": "Statistika, Duomenys",
+    "angle": 70,
+    "level": 8,
+    "category": "Organizacinis, valdžia",
+    "tips": [
+      "Analizuok duomenų rinkinius",
+      "Mokykis R/Python analizės bibliotekas",
+      "Dalyvauk Kaggle konkursuose",
+      "Gilinkis į tikimybių teoriją",
+      "Vizualizuok duomenis"
+    ],
+    "professions": [
+      "Duomenų analitikas",
+      "Statistikas",
+      "Duomenų inžinierius",
+      "BI analitikas",
+      "Tyrimo metodologas",
+      "Rinkos tyrimo specialistas",
+      "Ekonometristas",
+      "Kokybės kontrolės specialistas"
+    ],
+    "kids": [
+      "Surinkite ir analizuokite duomenis apie pomėgius",
+      "Kurkite grafikus ir diagramas",
+      "Atlikite paprastus tyrimus šeimoje/klasėje",
+      "Mokykitės skaičiuoti vidurkius ir procentus",
+      "Naudokite Excel ar panašias programas",
+      "Dalyvaukite mokslo projektuose su duomenų rinkimu",
+      "Stebėkite ir fiksuokite kasdienius duomenis (oras, augimo statistikos)"
+    ]
+  },
+  {
+    "title": "Finansai, Ekonomika",
+    "angle": 80,
+    "level": 8,
+    "category": "Organizacinis, valdžia",
+    "tips": [
+      "Analizuok rinkas",
+      "Sek ekonomikos naujienas",
+      "Simuliuok investavimo scenarijus",
+      "Studijuok įmonių finansus",
+      "Kurk finansinius modelius"
+    ],
+    "professions": [
+      "Buhalteris",
+      "Banko specialistas",
+      "Draudimo agentas",
+      "Mokesčių konsultantas",
+      "Auditorius",
+      "Finansų analitikas",
+      "Investicijų konsultantas",
+      "Ekonomistas",
+      "Verslo analitikas",
+      "Finansų planuotojas"
+    ],
+    "kids": [
+      "Mokykitės tvarkyti kišenpinigius ir biudžetą",
+      "Žaiskite ekonomikos simuliacijos žaidimus",
+      "Mokykitės taupyti ir investuoti (vaikiškai)",
+      "Supratinkite prekių kainas ir vertę",
+      "Dalyvaukite mokyklų ekonomikos projektuose",
+      "Kurkite savo mažą verslą (limonado pardavimas)",
+      "Mokykitės apie pinigų istoriją ir valiutas"
+    ]
+  },
+  {
+    "title": "Įstatymai, Teisė",
+    "angle": 90,
+    "level": 7,
+    "category": "Organizacinis, valdžia",
+    "tips": [
+      "Skaityk teismo bylas",
+      "Mokykis argumentavimo",
+      "Sek teisės reformų naujienas",
+      "Imituok teismo procesus su draugais",
+      "Gilinkis į tarptautinę teisę"
+    ],
+    "professions": [
+      "Teismo sekretorius",
+      "Antstolis",
+      "Juridinis konsultantas",
+      "Teisės mokytojas",
+      "Teisininkas",
+      "Advokatas",
+      "Notaras",
+      "Teisėjas",
+      "Prokuroras",
+      "Tarptautinės teisės specialistas"
+    ],
+    "kids": [
+      "Diskutuokite apie teisingumą ir taisykles",
+      "Žaiskite teismo roleplay žaidimus",
+      "Mokykitės argumentuoti savo poziciją",
+      "Dalyvaukite mokyklų debatų klubuose",
+      "Skaitykite paprastas teisės istorijas",
+      "Mokykitės apie teises ir pareigas",
+      "Spręskite etinius dilemas per diskusijas klubuose",
+      "Skaitykite paprastas teisės istorijas",
+      "Mokykitės apie teises ir pareigas",
+      "Spręskite etinius dilemas per diskusijas"
+    ]
+  },
+  {
+    "title": "Politika",
+    "angle": 100,
+    "level": 7,
+    "category": "Organizacinis, valdžia",
+    "tips": [
+      "Sek politinius procesus",
+      "Diskutuok apie aktualijas",
+      "Skaityk istorinius politinius veiksmus",
+      "Analizuok partijų programas",
+      "Būk aktyvus politinėse bendruomenėse"
+    ],
+    "professions": [
+      "Socialinis darbuotojas",
+      "NGO vadovas",
+      "Politikos žurnalistas",
+      "Kampanijos vadybininkas",
+      "Politikos konsultantas",
+      "Viešųjų ryšių specialistas",
+      "Lobistas",
+      "Politikos analitikas",
+      "Politikas"
+    ],
+    "kids": [
+      "Dalyvaukite mokyklų savivaldos rinkimuose",
+      "Diskutuokite apie visuomenės problemas",
+      "Mokykitės apie demokratijos principus",
+      "Organizuokite bendruomenės projektus",
+      "Dalyvaukite jaunimo organizacijose",
+      "Rašykite laiškus valdžios institucijoms",
+      "Mokykitės apie skirtingas šalis ir jų valdymo sistemas"
+    ]
+  },
+  {
+    "title": "Valdžia, Valstybė",
+    "angle": 110,
+    "level": 7,
+    "category": "Organizacinis, valdžia",
+    "tips": [
+      "Analizuok istorinius valdymo modelius",
+      "Sek politines naujienas",
+      "Studijuok valdymo teorijas",
+      "Būk aktyvus pilietinėse veiklose",
+      "Rašyk politines analizes"
+    ],
+    "professions": [
+      "Valstybės tarnautojas",
+      "Savivaldybės specialistas",
+      "Administracijos vedėjas",
+      "Projektų vadybininkas",
+      "Viešojo administravimo specialistas",
+      "Strateginio planavimo ekspertas",
+      "Diplomatas"
+    ],
+    "kids": [
+      "Mokykitės apie valstybės struktūrą",
+      "Dalyvaukite pilietiniuose projektuose",
+      "Organizuokite mokyklos renginius",
+      "Mokykitės lyderystės įgūdžių",
+      "Dalyvaukite jaunimo parlamentuose",
+      "Mokykitės apie viešuosius projektus",
+      "Praktikuokite komandos vadovavimą"
+    ]
+  },
+  {
+    "title": "Raštas, Skaičiai",
+    "angle": 120,
+    "level": 6,
+    "category": "Organizacinis, valdžia",
+    "tips": [
+      "Rašyk kasdien",
+      "Praktikuok loginį mąstymą per uždavinius",
+      "Dalyvauk rašymo kursuose",
+      "Kurk tinklaraštį",
+      "Spręsk kryžiažodžius"
+    ],
+    "professions": [
+      "Korektorius",
+      "Turinio kūrėjas",
+      "Vertėjas",
+      "Techninis rašytojas",
+      "Kalbos mokytojas",
+      "Žurnalistas",
+      "Redaktorius",
+      "Rašytojas",
+      "Buhalteris",
+      "Finansų specialistas"
+    ],
+    "kids": [
+      "Rašykite dienoraštį ar tinklaraštį",
+      "Dalyvaukite rašymo konkursuose",
+      "Mokykitės kaligrafinės rašybos",
+      "Kurkite savo istorijas ir pasakas",
+      "Spręskite matematikos uždavinius žaidžiant",
+      "Rašykite laiškus draugams ir šeimai",
+      "Mokykitės sklandžiai skaityti"
+    ]
+  },
+  {
+    "title": "Amatas, Prekyba",
+    "angle": 130,
+    "level": 6,
+    "category": "Organizacinis, valdžia",
+    "tips": [
+      "Mokykis amato iš meistrų",
+      "Praktikuok prekybos įgūdžius turguje",
+      "Kurti rankdarbius",
+      "Sek e. prekybos tendencijas",
+      "Dalyvauk mugėse"
+    ],
+    "professions": [
+      "Pardavėjas",
+      "Amatininkas",
+      "Rankdarbių meistras",
+      "Turgaus prekiautojas",
+      "E. prekybos specialistas",
+      "Amatų mokytojas",
+      "Mažmeninės prekybos vadybininkas",
+      "Prekybininkas",
+      "Produktų vadybininkas"
+    ],
+    "kids": [
+      "Mokykitės rankdarbių (mezgimas, siuvimas)",
+      "Kurkite ir parduokite savo dirbinukus",
+      "Dalyvaukite amatų dirbtuvėse",
+      "Eksperimentuokite su įvairiomis medžiagomis",
+      "Mokykitės prekybos pagrindų per žaidimus",
+      "Lankykitės amatininkų dirbtuvėse",
+      "Kurkite dovanas šeimai ir draugams"
+    ]
+  },
+  {
+    "title": "Būstas, Statyba",
+    "angle": 140,
+    "level": 5,
+    "category": "Fizinis, genai, jėga",
+    "tips": [
+      "Mokykis statybinių medžiagų savybių",
+      "Stebėk meistrų darbą",
+      "Eksperimentuok su mažais remontais",
+      "Sek statybų naujienas",
+      "Projektuok mažus namus"
+    ],
+    "professions": [
+      "Statybininkas",
+      "Namų statytojas",
+      "Remonto meistras",
+      "Nekilnojamojo turto agentas",
+      "Butų renovacijos specialistas",
+      "Interjero dekoratorius",
+      "Namų priežiūros specialistas"
+    ],
+    "kids": [
+      "Kurkite namelius iš kartono ir medžio",
+      "Mokykitės naudoti paprastus įrankius",
+      "Dalyvaukite namų remonto darbuose",
+      "Projektuokite savo svajų namą",
+      "Eksperimentuokite su statybinėmis medžiagomis",
+      "Mokykitės apie namų saugumą ir priežiūrą",
+      "Kurkite sodo namelius ar žaidimų aikšteles"
+    ]
+  },
+  {
+    "title": "Religijos",
+    "angle": 150,
+    "level": 5,
+    "category": "Fizinis, genai, jėga",
+    "tips": [
+      "Skaityk religinius tekstus",
+      "Lygink skirtingas religijas",
+      "Dalyvauk bendruomenės apeigose",
+      "Diskutuok apie tikėjimo filosofiją",
+      "Analizuok religijos poveikį istorijai"
+    ],
+    "professions": [
+      "Bendruomenės lyderis",
+      "Religinių studijų mokytojas",
+      "Kunigas",
+      "Pastorius",
+      "Teologas"
+    ],
+    "kids": [
+      "Skaitykite religines istorijas",
+      "Dalyvaukite bendruomenės apeigose",
+      "Mokykitės apie skirtingus tikėjimus tolerancijos dvasia",
+      "Diskutuokite apie dorybes ir vertybes"
+    ]
+  },
+  {
+    "title": "Kelionės, Atradimai",
+    "angle": 160,
+    "level": 5,
+    "category": "Fizinis, genai, jėga",
+    "tips": [
+      "Planuok keliones",
+      "Skaityk kelionių tinklaraščius",
+      "Studijuok geografiją",
+      "Bendrauk su kitų šalių žmonėmis",
+      "Dokumentuok savo atradimus"
+    ],
+    "professions": [
+      "Gidas",
+      "Kelionių agentas",
+      "Turistų vadovas",
+      "Kelionių tinklaraštininkas",
+      "Geografijos mokytojas",
+      "Tyrinėtojas",
+      "Dokumentalistas",
+      "Kelionių planuotojas",
+      "Aviakompanijos darbuotojas"
+    ],
+    "kids": [
+      "Tyrinėkite lokalius parkus ir gamtos objektus",
+      "Kurkite kelionių žemėlapius ir dienoraščius",
+      "Mokykitės apie skirtingas kultūras",
+      "Dalyvaukite pėsčiųjų žygiuose",
+      "Fotografuokite ir dokumentuokite atradimus",
+      "Mokykitės navigacijos įgūdžių",
+      "Planuokite šeimos keliones"
+    ]
+  },
+  {
+    "title": "Agresija, Dominavimas",
+    "angle": 170,
+    "level": 4,
+    "category": "Fizinis, genai, jėga",
+    "tips": [
+      "Stebėk savo emocijas",
+      "Mokykis konfliktų valdymo",
+      "Praktikuok kovos menus",
+      "Analizuok galios struktūras",
+      "Gilinkis į psichologiją"
+    ],
+    "professions": [
+      "Kovos menų treneris",
+      "Saugos darbuotojas",
+      "Policininkas",
+      "Vadybininkas",
+      "Verslo lyderis",
+      "Konfliktų mediatorius",
+      "Psichologas",
+      "Derybų vedėjas"
+    ],
+    "kids": [
+      "Mokykitės valdyti pyktį konstruktyviai",
+      "Dalyvaukite kovos menų treniruotėse",
+      "Praktikuokite lyderystės įgūdžius",
+      "Mokykitės konfliktų sprendimo būdų",
+      "Dalyvaukite komandos sporto varžybose",
+      "Mokykitės derybų ir kompromiso ieškojimo",
+      "Praktikuokite asertyvų bendravimą"
+    ]
+  },
+  {
+    "title": "Fizinė jėga",
+    "angle": 180,
+    "level": 3,
+    "category": "Fizinis, genai, jėga",
+    "tips": [
+      "Praktikuok sporto treniruotes",
+      "Mokykis fizinės sveikatos pagrindų",
+      "Dalyvauk varžybose",
+      "Sek mitybos režimą",
+      "Konsultuokis su treneriu"
+    ],
+    "professions": [
+      "Sporto treneris",
+      "Fitneso instruktorius",
+      "Atletas",
+      "Fizinio lavinimo mokytojas",
+      "Kineziterapeutas",
+      "Masažuotojas"
+    ],
+    "kids": [
+      "Dalyvaukite įvairiose sporto veiklose",
+      "Mokykitės taisyklingos laikysenos",
+      "Praktikuokite kasdienius fizinio aktyvumo įgūdžius",
+      "Dalyvaukite lauko žaidimuose",
+      "Mokykitės apie sveiko gyvenimo principus",
+      "Treniruokitės su šeima ir draugais",
+      "Eksperimentuokite su skirtingais sportais"
+    ]
+  },
+  {
+    "title": "Maistas",
+    "angle": 190,
+    "level": 3,
+    "category": "Fizinis, genai, jėga",
+    "tips": [
+      "Domėkis mitybos mokslu",
+      "Eksperimentuok su receptais",
+      "Studijuok skirtingų kultūrų virtuvę",
+      "Mokykis sveikos gyvensenos",
+      "Rašyk receptų tinklaraštį"
+    ],
+    "professions": [
+      "Virėjas",
+      "Maisto technologas",
+      "Dietistas",
+      "Mitybos konsultantas",
+      "Restorano vadybininkas",
+      "Kulinarijos mokytojas",
+      "Maisto kritikas",
+      "Maisto saugos specialistas"
+    ],
+    "kids": [
+      "Mokykitės atpažinti skirtingus maisto produktus",
+      "Eksperimentuokite su vaisių ir daržovių skoniais",
+      "Auginkite savo daržoves",
+      "Mokykitės apie sveiko maisto principus",
+      "Dalyvaukite maisto ruošimo procese",
+      "Tyrinėkite skirtingų kultūrų virtuvę",
+      "Mokykitės apie maisto kilmę"
+    ]
+  },
+  {
+    "title": "Seksas, Vaikai",
+    "angle": 200,
+    "level": 2,
+    "category": "Fizinis, genai, jėga",
+    "tips": [
+      "Domėkis šeimos psichologija",
+      "Skaityk apie vaikų ugdymą",
+      "Mokykis saugaus sekso pagrindų",
+      "Diskutuok apie lyčių vaidmenis",
+      "Stebėk vaikų raidos etapus"
+    ],
+    "professions": [
+      "Vaikų darželio auklėtojas",
+      "Mokyklos mokytojas",
+      "Vaikų psichologas",
+      "Šeimos konsultantas",
+      "Gimdymo akušeris"
+    ],
+    "kids": [
+      "Mokykitės rūpintis jaunesniais vaikais",
+      "Supratinkite šeimos formavimosi principus",
+      "Mokykitės empatiško bendravimo su mažaisiais",
+      "Dalyvaukite vaikų ugdymo veiklose"
+    ]
+  },
+  {
+    "title": "Šiluma, Buitis",
+    "angle": 210,
+    "level": 2,
+    "category": "Fizinis, genai, jėga",
+    "tips": [
+      "Mokykis buities darbų",
+      "Eksperimentuok su interjero dizainu",
+      "Tvarkyk buitį efektyviau",
+      "Naudok ekologiškus sprendimus",
+      "Sistemink namų užduotis"
+    ],
+    "professions": [
+      "Namų šeimininkė",
+      "Vidaus dizaineris",
+      "Viešbučių personalas",
+      "Švaros specialistas",
+      "Aprūpinimo vadybininkas"
+    ],
+    "kids": [
+      "Mokykitės tvarkos palaikymo namuose",
+      "Dalyvaukite namų ruošos darbuose",
+      "Kurkite jaukią aplinką savo kambaryje",
+      "Mokykitės rūpintis namų augalais",
+      "Praktikuokite švaros ir higienos įgūdžius",
+      "Mokykitės organizuoti erdvę",
+      "Eksperimentuokite su interjero detalėmis"
+    ]
+  },
+  {
+    "title": "Valgio Ruošimas",
+    "angle": 220,
+    "level": 3,
+    "category": "Jausmai, emocijos",
+    "tips": [
+      "Praktikuok įvairius gaminimo būdus",
+      "Studijuok mitybos vertes",
+      "Eksperimentuok su prieskoniais",
+      "Dalyvauk kulinarijos kursuose",
+      "Išbandyk įvairių kultūrų receptus"
+    ],
+    "professions": [
+      "Profesionalus virėjas",
+      "Konditeris",
+      "Picų meistras",
+      "Barista",
+      "Keiteryno specialistas",
+      "Maisto fotografas",
+      "Kulinarijos vedėjas"
+    ],
+    "kids": [
+      "Mokykitės ruošti paprastus patiekalus",
+      "Dalyvaukite virtuvės darbuose su suaugusiais",
+      "Eksperimentuokite su skoniais ir kvapais",
+      "Mokykitės virtuvės saugumo taisyklių",
+      "Kurkite savo receptų rinkinį",
+      "Mokykitės apie maistingas vertes",
+      "Dalyvaukite maisto ruošimo kursuose vaikams"
+    ]
+  },
+  {
+    "title": "Globa/Rūpyba",
+    "angle": 230,
+    "level": 3,
+    "category": "Jausmai, emocijos",
+    "tips": [
+      "Mokykis empatiškos komunikacijos",
+      "Studijuok slaugos pagrindus",
+      "Praktikuok kantrybę",
+      "Dalyvauk savanoriškose veiklose",
+      "Sek gerųjų praktikų naujoves"
+    ],
+    "professions": [
+      "Slaugytojas",
+      "Socialinis darbuotojas",
+      "Globėjas",
+      "Vaikų auklė",
+      "Senelių globos specialistas",
+      "Terapeutas",
+      "Reabilitacijos specialistas",
+      "Pagalbos namuose paslaugų teikėjas"
+    ],
+    "kids": [
+      "Mokykitės rūpintis namų gyvūnėliais",
+      "Praktikuokite pagalbos teikimą kitiems",
+      "Dalyvaukite savanoriškose veiklose",
+      "Mokykitės empatiško klausymo",
+      "Rūpinkitės augalais ir gamta",
+      "Mokykitės teikti pirmą pagalbą",
+      "Praktikuokite kantrybę ir supratimą"
+    ]
+  },
+  {
+    "title": "Empatija",
+    "angle": 240,
+    "level": 4,
+    "category": "Jausmai, emocijos",
+    "tips": [
+      "Praktikuok aktyvų klausymą",
+      "Skaityti apie psichologiją",
+      "Stebėk žmonių elgesį",
+      "Dalyvauk grupės terapijose",
+      "Mokykis konfliktų sprendimo"
+    ],
+    "professions": [
+      "Psichologas",
+      "Socialinis darbuotojas",
+      "Konsultantas",
+      "Terapeutas",
+      "HR specialistas",
+      "Slaugytojas",
+      "Dvasios globėjas",
+      "Emocinio palaikymo specialistas"
+    ],
+    "kids": [
+      "Mokykitės atpažinti emocijas",
+      "Praktikuokite aktyvų klausymą",
+      "Dalyvaukite grupės veiklose",
+      "Mokykitės padėti kitiems",
+      "Eksperimentuokite su emocijų išraiška",
+      "Skaitykite knygas apie jausmus",
+      "Mokykitės konfliktų sprendimo"
+    ]
+  },
+  {
+    "title": "Puošyba",
+    "angle": 250,
+    "level": 4,
+    "category": "Jausmai, emocijos",
+    "tips": [
+      "Studijuok mados istoriją",
+      "Eksperimentuok su stiliais",
+      "Sek dizaino tendencijas",
+      "Mokykis spalvų teorijos",
+      "Dalyvauk mados kursuose"
+    ],
+    "professions": [
+      "Stilistas",
+      "Grožio konsultantas",
+      "Makiažo menininkas",
+      "Fotografas",
+      "Dizaineris",
+      "Mados konsultantas",
+      "Vizažistas",
+      "Kosmetologas"
+    ],
+    "kids": [
+      "Eksperimentuokite su spalvų deriniais",
+      "Mokykitės puošti save ir aplinką",
+      "Kurkite papuošalus ir aksesuarus",
+      "Dalyvaukite mados šou ar konkursuose",
+      "Mokykitės apie grožį gamtoje",
+      "Eksperimentuokite su makiažu (amžiui tinkamu)",
+      "Kurkite kostiumus vaidinimiams"
+    ]
+  },
+  {
+    "title": "Muzika, Šokis",
+    "angle": 260,
+    "level": 4,
+    "category": "Jausmai, emocijos",
+    "tips": [
+      "Praktikuok instrumentą kasdien",
+      "Studijuok muzikos teoriją",
+      "Mokykis šokio technikos",
+      "Dalyvauk ansambliuose",
+      "Klausykis įvairių muzikos stilių"
+    ],
+    "professions": [
+      "Muzikas",
+      "Šokėjas",
+      "Muzikos mokytojas",
+      "Šokių instruktorius",
+      "Kompozitorius",
+      "DJ",
+      "Garso inžinierius",
+      "Koncertų organizatorius",
+      "Choreografas"
+    ],
+    "kids": [
+      "Mokykitės groti muzikos instrumentu",
+      "Dalyvaukite šokių pamokose",
+      "Kurkite savo dainas ir ritmus",
+      "Klausykitės įvairių muzikos stilių",
+      "Dalyvaukite muzikiniuose spektakliuose",
+      "Mokykitės skaityti natas",
+      "Eksperimentuokite su garsais ir ritmu"
+    ]
+  },
+  {
+    "title": "Dramatika, Ginčai",
+    "angle": 270,
+    "level": 4,
+    "category": "Jausmai, emocijos",
+    "tips": [
+      "Dalyvauk teatro grupėse",
+      "Mokykis retorikos",
+      "Praktikuok scenos kalbą",
+      "Studijuok argumentavimo technikas",
+      "Stebėk aktorių veiklą"
+    ],
+    "professions": [
+      "Aktorius",
+      "Teatro režisierius",
+      "Stand-up komikas",
+      "Kalbos mokytojas",
+      "Derybų vedėjas",
+      "Teismo advokatas",
+      "TV laidos vedėjas",
+      "Moksleivių debatų treneris"
+    ],
+    "kids": [
+      "Dalyvaukite teatro būreliuose",
+      "Mokykitės viešo kalbėjimo",
+      "Žaiskite roleplay žaidimus",
+      "Dalyvaukite debatų turnyruose",
+      "Kurkite ir vaidinkite savo vaidmenis",
+      "Mokykitės argumentuoti savo nuomonę",
+      "Praktikuokite emocinę išraišką"
+    ]
+  },
+  {
+    "title": "Literatūra",
+    "angle": 280,
+    "level": 5,
+    "category": "Jausmai, emocijos",
+    "tips": [
+      "Skaityk klasikus",
+      "Rašyk recenzijas",
+      "Dalyvauk literatūros diskusijose",
+      "Studijuok literatūros teoriją",
+      "Kurk savo tekstus"
+    ],
+    "professions": [
+      "Rašytojas",
+      "Poetas",
+      "Literatūros kritikas",
+      "Redaktorius",
+      "Literatūros mokytojas",
+      "Knygų recenzentas",
+      "Scenarijų autorius",
+      "Literatūros vertėjas",
+      "Bibliotekininkas"
+    ],
+    "kids": [
+      "Skaitykite įvairius literatūros žanrus",
+      "Rašykite savo istorijas ir poeziją",
+      "Dalyvaukite literatūros klubuose",
+      "Kurkite knygų iliustracijas",
+      "Mokykitės apie eilėdarą ir ritmą",
+      "Rašykite dienoraštį",
+      "Dalyvaukite poezijos skaitymuose"
+    ]
+  },
+  {
+    "title": "Media, Dizainas",
+    "angle": 290,
+    "level": 5,
+    "category": "Jausmai, emocijos",
+    "tips": [
+      "Mokykis dizaino programų",
+      "Studijuok tipografiją",
+      "Praktikuok kompoziciją",
+      "Sek dizaino tendencijas",
+      "Kurk projektų portfelį"
+    ],
+    "professions": [
+      "Grafikos dizaineris",
+      "Web dizaineris",
+      "Fotografas",
+      "Video montažo specialistas",
+      "Žiniasklaidos darbuotojas",
+      "Reklamos kūrėjas",
+      "UX/UI dizaineris",
+      "Socialinių medijų specialistas",
+      "Animacijos kūrėjas"
+    ],
+    "kids": [
+      "Mokykitės fotografijos pagrindų",
+      "Kurkite koliažus ir piešinius",
+      "Eksperimentuokite su video montažu",
+      "Mokykitės naudoti dizaino programas vaikams",
+      "Kurkite posterius ir reklamas",
+      "Dalyvaukite meno konkursuose",
+      "Eksperimentuokite su skirtingomis medžiagomis"
+    ]
+  },
+  {
+    "title": "Istorija, Žurnalistika",
+    "angle": 300,
+    "level": 6,
+    "category": "Jausmai, emocijos",
+    "tips": [
+      "Skaityk pirminius šaltinius",
+      "Rašyk straipsnius",
+      "Praktikuok interviu technikas",
+      "Studijuok žiniasklaidos etiką",
+      "Sek naujienų analizę"
+    ],
+    "professions": [
+      "Žurnalistas",
+      "Istorikas",
+      "Dokumentalistas",
+      "Muziejininkas",
+      "Archyvistas",
+      "Redaktorius",
+      "TV reporteris",
+      "Tyrinėtojas",
+      "Istorijos mokytojas",
+      "Politikos analitikas"
+    ],
+    "kids": [
+      "Tyrinėkite šeimos istoriją",
+      "Rašykite straipsnius mokyklos laikraščiui",
+      "Dalyvaukite istoriniuose projektuose",
+      "Lankykitės muziejuose ir istoriniuose vietose",
+      "Mokykitės interviu technikų",
+      "Kurkite istorines kolekcijas",
+      "Dokumentuokite svarbius įvykius"
+    ]
+  },
+  {
+    "title": "Psichologija",
+    "angle": 310,
+    "level": 8,
+    "category": "Jausmai, emocijos",
+    "tips": [
+      "Skaityk atvejų analizes",
+      "Gilinkis į psichoterapijos metodus",
+      "Praktikuok aktyvų klausymą",
+      "Dalyvauk psichologijos konferencijose",
+      "Savanoriauk emocinės pagalbos linijoje"
+    ],
+    "professions": [
+      "Psichologas",
+      "Psichiatras",
+      "Terapeutas",
+      "Konsultantas",
+      "HR specialistas",
+      "Karjeros konsultantas",
+      "Šeimos terapeutas",
+      "Vaikų psichologas",
+      "Neuropsichologas"
+    ],
+    "kids": [
+      "Mokykitės atpažinti emocijas",
+      "Stebėkite žmonių elgesį (ne įkyriai)",
+      "Skaitykite knygas apie psichologiją vaikams",
+      "Praktikuokite empatiją",
+      "Mokykitės apie smegenų veiklą",
+      "Dalyvaukite socialinės psichologijos eksperimentuose",
+      "Mokykitės padėti draugams"
+    ]
+  },
+  {
+    "title": "Mąstymas, Filosofija",
+    "angle": 320,
+    "level": 9,
+    "category": "Jausmai, emocijos",
+    "tips": [
+      "Analizuok filosofinius tekstus",
+      "Diskutuok su bendraminčiais",
+      "Kurti filosofinius esė",
+      "Skaitinėk originalius šaltinius (Platonas, Kantas)",
+      "Klausyk paskaitų YouTube ar podcast'uose"
+    ],
+    "professions": [
+      "Filosofas",
+      "Etikos konsultantas",
+      "Religijos studijų specialistas",
+      "Filosofijos mokytojas",
+      "Tyrinėtojas",
+      "Rašytojas",
+      "Konsultantas",
+      "Think tank specialistas"
+    ],
+    "kids": [
+      "Užduokite gilių klausimų apie gyvenimą",
+      "Diskutuokite apie dorybes ir vertybes",
+      "Mokykitės kritinio mąstymo",
+      "Spręskite loginius uždavinius",
+      "Skaitykite filosofines pasakas",
+      "Dalyvaukite etikos diskusijose",
+      "Mokykitės argumentuoti savo nuomonę"
+    ]
+  },
+  {
+    "title": "Biologija, Neuromokslai",
+    "angle": 330,
+    "level": 9,
+    "category": "Matematinis, loginis protas",
+    "tips": [
+      "Tyrinėk laboratorinius darbus",
+      "Sek naujausius mokslo straipsnius",
+      "Eksperimentuok su duomenų analize",
+      "Praktikuok mikroskopiją",
+      "Gilinkis į genetiką"
+    ],
+    "professions": [
+      "Laboratorijos technikas",
+      "Biologijos mokytojas",
+      "Ekologas",
+      "Veterinarijos specialistas",
+      "Biologas",
+      "Biotechnologas",
+      "Genetikos specialistas",
+      "Neurobiologas",
+      "Neuromokslininkas",
+      "Tyrinėtojas"
+    ],
+    "kids": [
+      "Tyrinėkite gamtą ir gyvūnus",
+      "Atlikite paprastus biologijos eksperimentus",
+      "Mokykitės apie žmogaus kūną",
+      "Auginkite augalus ir stebėkite jų augimą",
+      "Naudokite mikroskopus",
+      "Dalyvaukite gamtos stovyklose",
+      "Mokykitės apie smegenų veiklą"
+    ]
+  },
+  {
+    "title": "Medicinos Mokslai",
+    "angle": 340,
+    "level": 9,
+    "category": "Matematinis, loginis protas",
+    "tips": [
+      "Mokykis iš klinikinių atvejų",
+      "Dalyvauk praktikose ligoninėse",
+      "Gilinkis į anatomiją",
+      "Studijuok farmacijos pagrindus",
+      "Sek medicinos naujienas"
+    ],
+    "professions": [
+      "Medicinos slaugytojas",
+      "Medicinos technologas",
+      "Kineziterapeutas",
+      "Farmacininkas",
+      "Dentistas",
+      "Veterinaras",
+      "Gydytojas",
+      "Chirurgas",
+      "Medicinos tyrėjas"
+    ],
+    "kids": [
+      "Mokykitės teikti pirmą pagalbą",
+      "Žaiskite gydytojo žaidimus",
+      "Mokykitės apie žmogaus kūną",
+      "Dalyvaukite sveikatos šviečiamųjų programų veiklose",
+      "Mokykitės apie higienos svarbą",
+      "Stebėkite gydytojų darbą (su tėvų leidimu)",
+      "Mokykitės apie vaistų poveikį"
+    ]
+  },
+  {
+    "title": "Chemija, Biotechnologijos",
+    "angle": 350,
+    "level": 10,
+    "category": "Matematinis, loginis protas",
+    "tips": [
+      "Atlik eksperimentus laboratorijoje",
+      "Studijuok chemijos reakcijas",
+      "Sek biotechnologijų startuolius",
+      "Eksperimentuok su naujomis medžiagomis",
+      "Skaityk mokslinius žurnalus"
+    ],
+    "professions": [
+      "Laboratorijos specialistas",
+      "Maisto technologas",
+      "Aplinkos chemikas",
+      "Kokybės kontrolės specialistas",
+      "Chemikas",
+      "Biotechnologas",
+      "Farmacijos inžinierius",
+      "Medžiagų inžinierius",
+      "R&D specialistas",
+      "Biochemikas"
+    ],
+    "kids": [
+      "Atlikite saugius chemijos eksperimentus namuose",
+      "Mokykitės apie molekules ir atomus",
+      "Eksperimentuokite su spalvų mainais",
+      "Tyrinėkite kristalų auginimą",
+      "Mokykitės apie cheminę reakciją gamyboje",
+      "Dalyvaukite mokslo stovyklose",
+      "Eksperimentuokite su pH testais"
+    ]
+  }
+]
