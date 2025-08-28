@@ -3,7 +3,7 @@ const height = 600;
 const radius = 250; // Išorinis diagramos spindulys
 const innerRadius = 80; // Vidinio rato spindulys (kategorijų etiketėms ir centriniam tekstui)
 
-// Kategorijų spalvos (nepakeistos, kaip prašėte)
+// Kategorijų spalvos
 const categoryColors = {
     "Matematinis, loginis protas": "#3498db", // Mėlyna
     "Organizacinis, valdžia": "#f39c12",       // Geltona ochra
@@ -42,7 +42,7 @@ d3.json("data.json").then(data => {
             .attr("y2", Math.sin(angleRad) * radius)
             .attr("stroke", "#d0d0d0")
             .attr("stroke-width", 0.7)
-            .attr("class", "bg-line");
+            .attr("class", "bg-line"); // Pridėta klasė, kad būtų lengviau pasiekti per paiešką
 
         g.append("text")
             .attr("x", Math.cos(angleRad) * (radius + 15))
@@ -52,7 +52,7 @@ d3.json("data.json").then(data => {
             .attr("font-size", "10px")
             .attr("fill", "#808080")
             .text(`${i}°`)
-            .attr("class", "bg-text");
+            .attr("class", "bg-text"); // Pridėta klasė
     }
 
     // Neryškūs apskritimai sudėtingumo vertėms (2, 4, 6, 8, 10)
@@ -66,7 +66,7 @@ d3.json("data.json").then(data => {
             .attr("fill", "none")
             .attr("stroke", "#d0d0d0")
             .attr("stroke-width", 0.7)
-            .attr("class", "bg-circle");
+            .attr("class", "bg-circle"); // Pridėta klasė
     });
 
     // Stiprumo vektorių etiketės nupieštos ant 85 ir 185 laipsnių
@@ -87,7 +87,7 @@ d3.json("data.json").then(data => {
                 .attr("font-size", "10px")
                 .attr("fill", "#a0a0a0")
                 .text(level)
-                .attr("class", "bg-text");
+                .attr("class", "bg-text"); // Pridėta klasė
         });
     });
 
@@ -164,11 +164,14 @@ d3.json("data.json").then(data => {
             .attr("font-weight", "bold")
             .attr("fill", item.color)
             .text(item.text)
-            .attr("class", "central-text");
+            .attr("class", "central-text"); // Pridėta klasė
     });
 
     // Funkcija, kuri parodys kategorijas stulpelyje info-panel dalyje
     function displayCategoriesColumn() {
+        const categoriesView = d3.select("#categoriesView");
+        categoriesView.html(""); // Išvalome esamą turinį
+
         const categoryAngleRanges = {
             "Matematinis, loginis protas": "315°- 45°",
             "Organizacinis, valdžia": "45°- 135°",
@@ -177,10 +180,9 @@ d3.json("data.json").then(data => {
         };
 
         const categories = d3.groups(data, d => d.category);
-        const categoriesView = d3.select("#categoriesView");
-
+        
         let categoriesHtml = `
-            <h2 class="text-xl font-bold mb-4 text-gray-900">VĖJŲ KRYPTYS</h2>
+            <h2 class="text-xl font-bold mb-4 text-gray-900">4 Vėjai ir 36 kryptys</h2> <!-- Antraštė pakeista -->
             <div class="space-y-2">
         `;
 
@@ -199,9 +201,11 @@ d3.json("data.json").then(data => {
 
         categoriesHtml += `</div><div class="mt-6 text-gray-600">Pasirink sritį grafike, kad pamatytum detales.</div>`;
         categoriesView.html(categoriesHtml);
+
+        d3.selectAll(".category-button").on("click", null); // Atsiejame klausytojus
     }
 
-    // Funkcija, kuri generuoja ĮGŪDŽIŲ RADIO MYGTUKUS (pakeista iš šliaužiklių)
+    // Funkcija, kuri generuoja ĮGŪDŽIŲ RADIO MYGTUKUS
     function renderSkillRadioButtons() {
         const skillsRadioButtonsDiv = d3.select("#skillsRadioButtons");
         skillsRadioButtonsDiv.html(""); // Išvalome esamus mygtukus
@@ -245,6 +249,28 @@ d3.json("data.json").then(data => {
                     .text(i);
             }
         });
+
+        // Pridedame eksportavimo mygtukus
+        const exportButtonsContainer = skillsRadioButtonsDiv.append("div")
+            .attr("class", "mt-6 pt-4 border-t border-gray-200 flex flex-col gap-2"); // Separatorius ir tarpai
+
+        exportButtonsContainer.append("button")
+            .attr("id", "exportJsonBtn")
+            .attr("class", "px-4 py-2 bg-gray-200 text-gray-800 font-semibold rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-75 transition-colors")
+            .text("Eksportuoti į JSON")
+            .on("click", () => exportToJson(userSkillRatings));
+
+        exportButtonsContainer.append("button")
+            .attr("id", "exportCsvBtn")
+            .attr("class", "px-4 py-2 bg-gray-200 text-gray-800 font-semibold rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-75 transition-colors")
+            .text("Eksportuoti į CSV")
+            .on("click", () => exportToCsv(data, userSkillRatings)); // Perduodami visi duomenys
+
+        exportButtonsContainer.append("button")
+            .attr("id", "exportHtmlBtn")
+            .attr("class", "px-4 py-2 bg-gray-200 text-gray-800 font-semibold rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-75 transition-colors")
+            .text("Eksportuoti į HTML")
+            .on("click", () => exportToHtml(data, userSkillRatings)); // Perduodami visi duomenys
     }
 
     // Funkcija, kuri atnaujina arba nupiešia asmeninę diagramą
@@ -265,14 +291,8 @@ d3.json("data.json").then(data => {
         // Sukuriame linijos generatorių
         const lineGenerator = d3.lineRadial()
             .angle(d => {
-                // Pasukame 180 laipsnių nuo dabartinės asmeninės diagramos pozicijos.
-                // Ankstesnis skaičiavimas buvo (d.angle - 90) * Math.PI / 180 + Math.PI / 2 + Math.PI.
-                // Norėdami pasukti dar 180 laipsnių, pridedame papildomą + Math.PI.
-                // Tai supaprastina išraišką: (d.angle - 90) * Math.PI / 180 + Math.PI / 2 + 2 * Math.PI,
-                // kas yra tas pats, kas (d.angle - 90) * Math.PI / 180 + Math.PI / 2 (nes 2*PI yra pilnas apsukimas).
-                // Taigi, efektyviai tiesiog pridedame Math.PI prie pradinio JSON kampo konvertavimo į radianus,
-                // kad gautume 180 laipsnių posūkį nuo to, kur JSON 0 (viršus) būtų vizualiai viršuje.
-                return (d.angle * Math.PI / 180);
+                // Grįžtame į 90 laipsnių prieš laikrodžio rodyklę nuo pagrindinės diagramos orientacijos
+                return (d.angle - 90) * Math.PI / 180 + Math.PI / 2;
             })
             .radius(d => (userSkillRatings[d.title] * 20 + innerRadius)); // Naudojame vartotojo įvertinimą
 
@@ -312,7 +332,132 @@ d3.json("data.json").then(data => {
             d3.select("#categoriesView").classed("hidden", false);
             d3.select("#skillsView").classed("hidden", true); // Rodo kategorijas
             displayCategoriesColumn(); // Vėl atvaizduoja kategorijas
+            resetSearchFilter(); // Išvalome paieškos filtrą grįžtant į pagrindinį vaizdą
         });
+    }
+
+    // Funkcija JSON eksportavimui
+    function exportToJson(skillRatings) {
+        const filename = "mano_igudziai.json";
+        const dataStr = JSON.stringify(skillRatings, null, 2);
+        const blob = new Blob([dataStr], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        console.log("Eksportuota į JSON:", filename);
+    }
+
+    // Funkcija CSV eksportavimui
+    function exportToCsv(allSkillsData, skillRatings) {
+        const filename = "mano_igudziai.csv";
+        let csvContent = "Įgūdis,Jūsų_Įvertinimas,Sudėtingumo_Lygis,36 Kryptys\n";
+
+        const ratedSkills = allSkillsData.filter(skill => skillRatings[skill.title] > 0);
+
+        if (ratedSkills.length > 0) {
+            ratedSkills.forEach(skill => {
+                const rating = skillRatings[skill.title];
+                csvContent += `${JSON.stringify(skill.title)},${rating},${skill.level},${JSON.stringify(skill.category)}\n`;
+            });
+        } else {
+            csvContent += "Nėra įvertintų įgūdžių.\n";
+        }
+
+        const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        console.log("Eksportuota į CSV:", filename);
+    }
+
+    // Funkcija HTML eksportavimui
+    function exportToHtml(allSkillsData, skillRatings) {
+        const filename = "mano_igudziai.html";
+        let htmlContent = `
+            <!DOCTYPE html>
+            <html lang="lt">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Mano Įgūdžių Ataskaita</title>
+                <style>
+                    body { font-family: sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+                    .container { max-width: 800px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+                    h1 { color: #333; }
+                    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+                    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                    th { background-color: #eee; }
+                    .no-data { text-align: center; color: #777; margin-top: 20px; }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <h1>Mano Įgūdžių Ataskaita</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Įgūdis</th>
+                                <th>Jūsų Įvertinimas</th>
+                                <th>Sudėtingumo Lygis (Max)</th>
+                                <th>36 Kryptys</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+        `;
+
+        const ratedSkills = allSkillsData.filter(skill => skillRatings[skill.title] > 0);
+
+        if (ratedSkills.length > 0) {
+            ratedSkills.forEach(skill => {
+                const rating = skillRatings[skill.title];
+                htmlContent += `
+                            <tr>
+                                <td>${skill.title}</td>
+                                <td>${rating}</td>
+                                <td>${skill.level}</td>
+                                <td>${skill.category}</td>
+                            </tr>
+                `;
+            });
+        } else {
+            htmlContent += `<tr><td colspan="4" class="no-data">Nėra įvertintų įgūdžių.</td></tr>`;
+        }
+
+        htmlContent += `
+                        </tbody>
+                    </table>
+                </div>
+            </body>
+            </html>
+        `;
+
+        const blob = new Blob([htmlContent], { type: "text/html;charset=utf-8;" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        console.log("Eksportuota į HTML:", filename);
+    }
+
+    // Funkcija, kuri išvalo paieškos filtrą ir atkuria diagramos matomumą
+    function resetSearchFilter() {
+        d3.select("#searchInput").property("value", ""); // Išvalome paieškos laukelį
+        // Atstatome visų SVG elementų matomumą
+        g.selectAll(".bg-line, .bg-text, .bg-circle, .central-text, .personal-diagram-path, .skill-group").style("opacity", 1);
     }
 
     // Inicializuojame kategorijų rodymą
@@ -324,35 +469,44 @@ d3.json("data.json").then(data => {
         d3.select("#categoriesView").classed("hidden", false);
         d3.select("#skillsView").classed("hidden", true);
         displayCategoriesColumn();
+        resetSearchFilter(); // Išvalome paieškos filtrą, kai pereiname į kategorijas
     });
 
     d3.select("#showSkillsBtn").on("click", () => {
         d3.select("#categoriesView").classed("hidden", true);
         d3.select("#skillsView").classed("hidden", false);
-        renderSkillRadioButtons(); // Pergeneruojame RADIO mygtukus
+        renderSkillRadioButtons(); // Pergeneruojame RADIO mygtukus (kartu su eksportavimo mygtukais)
         updatePersonalDiagram(); // Atnaujiname asmeninę diagramą, kai rodomi mygtukai
+        resetSearchFilter(); // Išvalome paieškos filtrą, kai pereiname į įgūdžius
     });
 
     // Paieškos funkcionalumas
     const searchInput = d3.select("#searchInput");
 
     searchInput.on("keyup", function() {
-        const searchTerm = this.value.toLowerCase();
+        // Paieškos terminas: paverčiame mažosiomis raidėmis ir pašaliname diakritinius ženklus
+        const searchTermRaw = this.value.toLowerCase();
+        const searchTerm = searchTermRaw.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
-        g.selectAll(".skill-group").style("opacity", d => {
-            if (!searchTerm) return 1;
+        // Pritemdome visus fono elementus ir asmeninę diagramą, jei yra paieškos terminas
+        g.selectAll(".bg-line, .bg-text, .bg-circle, .central-text, .personal-diagram-path").style("opacity", searchTermRaw ? 0.1 : 1);
 
-            const match = d.title.toLowerCase().includes(searchTerm) ||
-                          d.category.toLowerCase().includes(searchTerm) ||
-                          d.tips.some(tip => tip.toLowerCase().includes(searchTerm)) ||
-                          d.professions.some(prof => prof.toLowerCase().includes(searchTerm)) ||
-                          d.kids.some(kid => kid.toLowerCase().includes(searchTerm));
+        g.selectAll(".skill-group").each(function(d) {
+            // Normalizuojame visus paieškai skirtus teksto laukus
+            const titleNormalized = d.title.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            const categoryNormalized = d.category.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            const tipsNormalized = d.tips.map(tip => tip.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
+            const professionsNormalized = d.professions.map(prof => prof.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
+            const kidsNormalized = d.kids.map(kid => kid.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
+
+            const match = titleNormalized.includes(searchTerm) ||
+                          categoryNormalized.includes(searchTerm) ||
+                          tipsNormalized.some(tip => tip.includes(searchTerm)) ||
+                          professionsNormalized.some(prof => prof.includes(searchTerm)) ||
+                          kidsNormalized.some(kid => kid.includes(searchTerm));
             
-            return match ? 1 : 0.1;
+            // Nustatome matomumą pagal atitikimą paieškos terminui
+            d3.select(this).style("opacity", searchTermRaw ? (match ? 1 : 0.1) : 1);
         });
-
-        g.selectAll(".central-text").style("opacity", searchTerm ? 0.1 : 1);
-        g.selectAll(".bg-line, .bg-text, .bg-circle").style("opacity", searchTerm ? 0.1 : 1);
-        g.select(".personal-diagram-path").style("opacity", searchTerm ? 0.1 : 1); // Paslėpiame/rodome asmeninę diagramą
     });
 });
